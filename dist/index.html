@@ -1,16 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Party</title>
-  </head>
-  <body>
-    <nav>
-      <image class="dog-icon" src="./images/dog-icon.svg" />
-    </nav>
-    <script src="bundle.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Party</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <img class="dog-img" src="./images/dog-icon.svg" alt="dog-logo-image">
+    </div>
+    <ul>
+      <li><a class="list-items" id="#how">How</a></li>
+      <li><a class="list-items" id="#what">What</a></li>
+      <li><a class="list-items" id="#facts">Facts</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <h1>A Site About Some Dogs</h1>
+    <div class="main-dog-image-">
+      <img class="dog-img-hero" src="./images/dog1-sq.jpg" alt="Dog-image-hero-section">
+    </div>
+    <button class="what-are-dogs-btn">What are Dogs</button>
+  </section>
+
+  <section class="info-section" id="how">
+
+    <div class="card">
+      <h2>How</h2>
+      <div class="dog2-wrapper">
+        <img class="dog-card-img" src="./images/dog2-sq.jpg" alt="first-dog-image">
+      </div>
+      <p>Dogs are loyal companions known for their affectionate nature and unwavering devotion to their owners. They
+        exhibit boundless energy and enthusiasm, often eager to play and explore the world around them. Dogs vary widely
+        in size, breed, and temperament, but they share a common trait of forming deep bonds with their human families.
+        </p>
+      <button class="what-are-dogs-btn">How to Dog</button>
+    </div>
+
+    <div class="card" id="what">
+      <h2>What</h2>
+      <div class="dog3-wrapper">
+        <img class="dog-card-img" src="./images/dog3-sq.jpg" alt="second-dog-image">
+      </div>
+      <p>Dogs are enthusiastic explorers, constantly eager to play and discover their surroundings with boundless energy. 
+        They come in a wide variety of sizes, breeds, and temperaments, yet all share a common trait of forming deep, 
+        affectionate bonds with their human families.</p>
+
+      <button class="what-are-dogs-btn">What is Dog</button>
+    </div>
+
+    <div class="card" id="facts">
+      <h2>Facts</h2>
+      <div class="dog4-wrapper">
+        <img class="dog-card-img" src="./images/dog4-sq.jpg" alt="third-dog-image">
+      </div>
+      <p>Dogs are loyal companions known for their affectionate nature and unwavering devotion to their owners. They
+        exhibit boundless energy and enthusiasm, often eager to play and explore the world around them. Dogs vary widely
+        in size, breed, and temperament, but they share a common trait of forming deep bonds with their human families.</p>
+      <button class="what-are-dogs-btn">Dog Facts</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer center-text">
+      <p class="footer-text">Learn about dogs online</p>
+      <div class="social-media-links">
+        <a href="https://www.facebook.com">
+          <img class="footer-image" src="./images/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.twitter.com">
+          <img class="footer-image" src="./images/twitter.svg" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com">
+          <img class="footer-image" src="./images/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com">
+          <img class="footer-image" src="./images/linkedin.svg" alt="LinkedIn">
+        </a>
+      </div>
+      <p><a class="footer-text" href="https://github.com">See this on GitHub</a></p>
+    </div>
+  </footer>
+  <script src="bundle.js"></script>
+
+</body>
+
 </html>
