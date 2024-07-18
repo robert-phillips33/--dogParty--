@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack server",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
@@ -17,8 +19,14 @@
     "webpack-dev-server": "^4.15.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-phillips33/--dogParty--.git"
+  },
+  "homepage": "http://robert-phillips33.github.io/--dogParty--"
 }
